@@ -1,8 +1,6 @@
-import { component$, useStylesScoped$ } from "@builder.io/qwik"
-import footerStyle from "./footer.css?inline"
+import { component$ } from "@builder.io/qwik"
 
 export const Footer = component$(() => {
-  useStylesScoped$(footerStyle)
 
   return (
     <footer>

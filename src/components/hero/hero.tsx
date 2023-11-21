@@ -1,9 +1,7 @@
-import { component$, useStylesScoped$ } from "@builder.io/qwik"
-import heroStyle from "./hero.css?inline"
+import { component$ } from "@builder.io/qwik"
  
 
 export const Hero = component$(() => {
-  useStylesScoped$(heroStyle)
 
   return (
     <main>

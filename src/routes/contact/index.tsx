@@ -1,10 +1,8 @@
-import { component$, useStylesScoped$ } from "@builder.io/qwik"
-import contactStyle from "./contact.css?inline"
+import { component$} from "@builder.io/qwik"
 import { Footer } from "~/components/footer/footer"
 import { Nav } from "~/components/nav/nav"
 
 export default component$(() => {
-  useStylesScoped$(contactStyle)
   return (
     <>
       <Nav />
