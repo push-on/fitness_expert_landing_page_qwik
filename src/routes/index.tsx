@@ -1,15 +1,15 @@
 import { component$ } from "@builder.io/qwik"
 import type { DocumentHead } from "@builder.io/qwik-city"
-import { Footer } from "~/components/footer/footer"
 import { Hero } from "~/components/hero/hero"
-import { Nav } from "~/components/nav/nav"
+import { HeroMid } from "~/components/hero/heroMid"
+import { HeroOverlay } from "~/components/hero/heroOverlay"
 
 export default component$(() => {
   return (
     <>
-      <Nav />
       <Hero />
-      <Footer />
+      <HeroMid />
+      <HeroOverlay/>
     </>
   )
 })

@@ -1,15 +1,24 @@
 import { component$ } from "@builder.io/qwik"
-import { Footer } from "~/components/footer/footer"
-import { Nav } from "~/components/nav/nav"
+
 
 export default component$(() => {
   return (
     <>
-      <Nav />
       <main>
-        <h1>Packages</h1>
+        <div class="hero min-h-screen">
+          <div class="hero-overlay "></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold">Packages</h1>
+              <p class="mb-5">
+                About me About Zafir Anam <br />
+                Meet Your Certified Fitness Expert
+              </p>
+              <button class="btn btn-primary">Get Started</button>
+            </div>
+          </div>
+        </div>
       </main>
-      <Footer />
     </>
   )
 })

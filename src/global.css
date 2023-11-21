@@ -2,14 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply bg-black text-white;
+
+
+@layer components {
+  .text-stroke {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
   }
 }
-
-/* @layer components {
-  .Custom-class {
-    @apply ;
-  }
-} */
