@@ -5,10 +5,12 @@ ul {
 	margin: 0;
 	gap: 4rem;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
+	padding-left: 7rem;
+	padding-right: 7rem;
 	color: rgb(254 226 226);
 }
 

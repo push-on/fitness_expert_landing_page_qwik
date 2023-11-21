@@ -12,13 +12,7 @@ export const Nav = component$(() => {
         </a>
       </li>
       <li>
-        <a href="/about">about</a>
-      </li>
-      <li>
-        <a href="/packages">packages</a>
-      </li>
-      <li>
-        <a href="/contact">contact</a>
+        <a href="/">MENU</a>
       </li>
     </ul>
   )
