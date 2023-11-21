@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik"
 
 export const HeroOverlay = component$(() => {
   return (
-    <main class="hero min-h-screen bg-base-200 ">
+    <main class="hero min-h-screen bg-base-300 ">
       <div class="hero-content flex-col lg:flex-row-reverse ">
         <img
           decoding="async"
@@ -13,7 +13,7 @@ export const HeroOverlay = component$(() => {
           height="450"
           class="max-w-sm rounded-lg shadow-2xl shadow-black "
         />
-        <div class=" max-w-xl">
+        <div class="max-w-xl">
           <h1 class="text-5xl font-bold">
             EXPERIENCE THE BENEFITS OF PERSONAL TRAINER
           </h1>

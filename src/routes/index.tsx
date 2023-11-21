@@ -3,13 +3,15 @@ import type { DocumentHead } from "@builder.io/qwik-city"
 import { Hero } from "~/components/hero/hero"
 import { HeroMid } from "~/components/hero/heroMid"
 import { HeroOverlay } from "~/components/hero/heroOverlay"
+import { PriceCards } from "~/components/hero/priceCards"
 
 export default component$(() => {
   return (
     <>
       <Hero />
       <HeroMid />
-      <HeroOverlay/>
+      <HeroOverlay />
+      <PriceCards/>
     </>
   )
 })

@@ -1,4 +1,4 @@
-import { component$} from "@builder.io/qwik"
+import { component$ } from "@builder.io/qwik"
 
 export default component$(() => {
   return (
@@ -8,7 +8,7 @@ export default component$(() => {
           <div class="hero-overlay "></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
-              <h1 class="mb-5 text-5xl font-bold">Contact</h1>
+              <h1 class="mb-5 text-5xl font-bold">Training</h1>
               <p class="mb-5">
                 About me About Zafir Anam <br />
                 Meet Your Certified Fitness Expert
