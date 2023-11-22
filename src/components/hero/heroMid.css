@@ -2,6 +2,7 @@
 	mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
 	-webkit-mask: linear-gradient(90deg, transparent, white 10% , white 90%, transparent);
 }
+
 .m-scroll__title{
 	animation: scroll 20s linear infinite;
 }
