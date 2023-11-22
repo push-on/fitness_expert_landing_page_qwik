@@ -6,15 +6,15 @@ export const Hero = component$(() => {
   return (
     <main class="hero min-h-screen bg-base-300 ">
       <div class="hero-content flex-col lg:flex-row  space-x-10">
-        <img
-          decoding="async"
-          loading="lazy"
-          srcSet="./images/hero.webp"
-          alt="hero"
-          width="400"
-          height="550"
-          class="max-w-sm rounded-lg shadow-2xl shadow-black "
-        />
+          <img
+            decoding="async"
+            loading="lazy"
+            srcSet="./images/hero.webp"
+            alt="hero"
+            width="400"
+            height="550"
+            class=" max-w-sm rounded-lg shadow-2xl shadow-black  "
+          />
         <div class="max-w-sm ">
           <h1 class="text-7xl text-center lg:text-9xl lg:text-left  ">
             <section class=" text-transparent bg-clip-text bg-gradient-to-b from-gray-100 to-gray-600">

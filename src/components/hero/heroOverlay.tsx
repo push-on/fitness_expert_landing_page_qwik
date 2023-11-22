@@ -4,15 +4,16 @@ export const HeroOverlay = component$(() => {
   return (
     <main class="hero min-h-screen bg-base-300 ">
       <div class="hero-content flex-col lg:flex-row-reverse ">
-        <img
-          decoding="async"
-          loading="lazy"
-          srcSet="./images/heroOverlay.jpg"
-          alt="hero"
-          width="300"
-          height="450"
-          class="max-w-sm rounded-lg shadow-2xl shadow-black "
-        />
+
+          <img
+            decoding="async"
+            loading="lazy"
+            srcSet="./images/heroOverlay.webp"
+            alt="hero"
+            width="300"
+            height="450"
+            class="max-w-sm rounded-lg shadow-2xl shadow-black "
+          />
         <div class="max-w-xl">
           <h1 class="text-5xl font-bold">
             EXPERIENCE THE BENEFITS OF PERSONAL TRAINER

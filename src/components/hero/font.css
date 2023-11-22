@@ -1,8 +1,9 @@
 @font-face {
 	font-family: "superset";
 	src: url("fonts/superset.woff") format("woff");
+	font-weight: bolder;
 }
 
 h1 {
-	font-family: "superset";
+	font-family: "superset", sans-serif;
 }
