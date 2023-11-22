@@ -13,7 +13,7 @@ export const Hero = component$(() => {
             alt="hero"
             width="400"
             height="550"
-            class=" max-w-sm rounded-lg shadow-2xl shadow-black  "
+            class="border max-w-sm rounded-lg shadow-2xl shadow-black  "
           />
         <div class="max-w-sm ">
           <h1 class="text-7xl text-center lg:text-9xl lg:text-left  ">
