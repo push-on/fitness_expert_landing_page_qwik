@@ -4,7 +4,15 @@
 
 @layer components {
   .text-stroke {
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
   }
+
+  @media (min-width: 1024px) {
+    .text-stroke {
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+    }
+  }
+  
 }
