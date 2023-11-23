@@ -4,14 +4,14 @@
 
 @layer components {
   .text-stroke {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(224, 224, 224);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #d6d3d1;
   }
 
   @media (min-width: 1024px) {
     .text-stroke {
       -webkit-text-stroke-width: 2px;
-      -webkit-text-stroke-color: rgb(224, 224, 224);
+      -webkit-text-stroke-color: #d6d3d1;
     }
   }
   

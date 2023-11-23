@@ -3,6 +3,8 @@ import type { DocumentHead } from "@builder.io/qwik-city"
 import { Hero } from "~/components/hero/hero"
 import { HeroMid } from "~/components/hero/heroMid"
 import { HeroOverlay } from "~/components/hero/heroOverlay"
+import { HeroOverlayM } from "~/components/hero/heroOverlayM"
+import { JoinUs } from "~/components/hero/joinUs"
 import { PriceCards } from "~/components/hero/priceCards"
 
 export default component$(() => {
@@ -11,6 +13,8 @@ export default component$(() => {
       <Hero />
       <HeroMid />
       <HeroOverlay />
+      <HeroOverlayM />
+      <JoinUs />
       <PriceCards/>
     </>
   )
