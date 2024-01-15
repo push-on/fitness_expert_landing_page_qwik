@@ -12,6 +12,7 @@ export const HeroOverlayM = component$(() => {
 
   useVisibleTask$(() => {
     animate.value = true
+    
   })
   return (
     <main

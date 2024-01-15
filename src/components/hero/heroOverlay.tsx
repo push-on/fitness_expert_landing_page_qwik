@@ -12,6 +12,7 @@ export const HeroOverlay = component$(() => {
 
   useVisibleTask$(() => {
     animate.value = true
+    
   })
   return (
     <main class="hero min-h-screen bg-base-300 py-20">

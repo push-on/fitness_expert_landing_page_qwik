@@ -6,16 +6,17 @@ import { HeroOverlay } from "~/components/hero/heroOverlay"
 import { HeroOverlayM } from "~/components/hero/heroOverlayM"
 import { JoinUs } from "~/components/hero/joinUs"
 import { PriceCards } from "~/components/hero/priceCards"
-
+import { Testimonial } from "~/components/hero/testimonial"
 export default component$(() => {
   return (
     <>
       <Hero />
       <HeroMid />
       <HeroOverlay />
-      <HeroOverlayM />
       <JoinUs />
-      <PriceCards/>
+      <PriceCards />
+      <Testimonial/>
+      <HeroOverlayM />
     </>
   )
 })

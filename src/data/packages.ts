@@ -1,6 +1,6 @@
-export const packages = {
-	"01": {
-		title: "Premium online coaching",
+export const packages = [
+	{
+		title: "4-Week Body Transformation",
 		price: "2490 BDT",
 		details: [
 			"Program Duration: 4 Weeks",
@@ -12,8 +12,8 @@ export const packages = {
 			"Supplementation/lifestyle guide",
 		],
 	},
-	"02": {
-		title: "Premium Online Coaching",
+	{
+		title: "12-Week Total Fitness Journey",
 		price: "4990 BDT",
 		details: [
 			"Program Duration: 12 Weeks",
@@ -25,8 +25,8 @@ export const packages = {
 			"Supplementation/lifestyle guide",
 		],
 	},
-	"03": {
-		title: "Premium Online Coaching",
+	{
+		title: "24-Week Ultimate Program",
 		price: "7450 BDT",
 		details: [
 			"Program Duration: 24 Weeks",
@@ -37,5 +37,5 @@ export const packages = {
 			"Weekly diet & training adjustments After closely monitoring performance.",
 			"Supplementation/lifestyle guide",
 		],
-	}
-}
+	},
+]
