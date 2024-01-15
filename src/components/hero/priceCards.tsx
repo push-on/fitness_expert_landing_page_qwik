@@ -70,6 +70,8 @@ export const PriceCards = component$(() => {
             "animate-fade-right animate-duration-1000 animate-delay-700 ease-in-out"
             }  card w-full mt-6  bg-base-300 shadow-2xl shadow-black border-4 border-slate-800  hover:border-slate-700`}>
             <div class="card-body pt-12 pb-16 items-center  ">
+              <div class="badge badge-neutral badge-sm absolute text-white mt-1 ml-1 left-2 top-2">Budget Friendly</div>
+
               <h2 class={`${animate.value &&
                 "animate-fade-right animate-duration-1000 animate-delay-700 ease-in-out"
                 }card-title text-xl`}>{packages[2].title} </h2>
