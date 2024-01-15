@@ -12,7 +12,7 @@ export const PriceCards = component$(() => {
     <div class="grid place-items-center  w-full">
       <div class='max-w-6xl w-full py-24 px-4 content-center justify-center'>
 
-        <div class='grid md:grid-cols-3 grid-cols-1 w-full gap-8 '>
+        <div class='grid md:grid-cols-3 grid-cols-1 w-full gap-8'>
 
 
           <div class={`${animate.value &&

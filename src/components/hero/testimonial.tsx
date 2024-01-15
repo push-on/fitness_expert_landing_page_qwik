@@ -6,7 +6,7 @@ export const Testimonial = component$(() => {
 
 	useVisibleTask$(() => {
 		animate.value = true
-		
+
 	})
 
 	return (
@@ -31,25 +31,27 @@ export const Testimonial = component$(() => {
 											loading="lazy"
 											class={`${animate.value &&
 												"animate-fade-right animate-duration-1000 animate-delay-150 ease-in-out"
-											} mask w-28 h-28 mask-circle object-cover`}
+												} mask w-28 h-28 mask-circle object-cover`}
 											src={t.image} />
 									</figure>
-									<div class="card-body items-center ">
+									<div class="card-body text-justify">
+										<div class="text-base">
+											<p class={`
+										${animate.value &&
+												"animate-fade-right animate-duration-1000 animate-delay-1000 ease-in-out"
+												}
+										
+										text-slate-500`}>{t.name}</p>
+											<p class={`
+										
+										${animate.value &&
+												"animate-fade-right animate-duration-1000 animate-delay-1000 ease-in-out"
+												}
+										text-slate-500`}>{t.packageName}</p>
+										</div>
 										<p class={`${animate.value &&
 											"animate-fade-right animate-duration-1000 animate-delay-700 ease-in-out"
-											}`}>{t.review}</p>
-										<p class={`
-										${animate.value &&
-											"animate-fade-right animate-duration-1000 animate-delay-1000 ease-in-out"
-											}
-										
-										text-slate-500`}>-{t.name}</p>
-										<p class={`
-										
-										${animate.value &&
-											"animate-fade-right animate-duration-1000 animate-delay-1000 ease-in-out"
-											}
-										text-slate-500`}>-{t.packageName}</p>
+											}  text-sm `}>{t.review}</p>
 									</div>
 								</div>
 							)

@@ -6,7 +6,7 @@ export const testimonials = [
 		packageName: "Fitness Transformation Package"
 	},
 	{
-		name: "Anonymous Client",
+		name: "Jawad",
 		review: "It's been a great journey with Mentor Zafir Anam. I was preparing for my BMA preliminary and ISSB. The main challenge I had ahead of me was to lose significant weight in a short period of time, especially in a month, which is around 18 Lbs. Alhamdulillah, with the help of Zafir Anam's diet, lost around 16 lbs, could've lost fully if I were fully consistent. The main advantage of his diet is it doesn't hamper your day-to-day works; you would have sufficient energy to work. Highly recommended. Get your customized nutrition & training plan.",
 		image: "https://avatar.iran.liara.run/public/3",
 		packageName: "Rapid Weight Loss Package"
